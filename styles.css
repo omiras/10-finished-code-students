@@ -1,0 +1,92 @@
+body {
+  font-family: "Open Sans";
+  background-color: rgb(44, 41, 38);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 32px;
+}
+
+#main-header a:visited {
+  color:rgb(185, 131, 31);
+}
+
+
+
+#main-header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#main-header li {
+  margin: 0 1rem;
+}
+
+#main-header nav a {
+  color: rgb(185, 131, 31);
+  font-size: 1.25rem;
+}
+
+#main-header nav a:hover {
+  color: rgb(228, 163, 44);
+}
+
+
+#main-header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(29, 26, 24);
+  padding: 0 1%;
+
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+    color: rgb(185, 131, 31);
+
+}
+
+#latest-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
+.food-item {
+  background-color: rgb(228, 206, 182);
+  border-radius: 6px;
+}
+
+.food-item img {
+  height: 250px;
+}
+
+.food-item-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.food-item h2 {
+  margin: 0 0 1rem 0;
+}
+
+.btn {
+  background-color: rgb(228, 157, 44);
+  color: white;
+  border-radius: 4px;
+  padding: 2px 16px;
+  font-weight: 700;
+}
+
